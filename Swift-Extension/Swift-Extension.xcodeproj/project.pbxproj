@@ -46,6 +46,7 @@
 		11227FB8245DD46C00B824B1 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11227FA0245DD46B00B824B1 /* UITableView+Extension.swift */; };
 		1152A41F2461C83B00379487 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1152A41E2461C83B00379487 /* Array+Extension.swift */; };
 		11B64F5B247144BD00D5B2C1 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B64F5A247144BD00D5B2C1 /* Collection+Extension.swift */; };
+		11BA119625262FCD0001850A /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BA119525262FCD0001850A /* Dictionary+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +112,7 @@
 		11227FA0245DD46B00B824B1 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		1152A41E2461C83B00379487 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		11B64F5A247144BD00D5B2C1 /* Collection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
+		11BA119525262FCD0001850A /* Dictionary+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +227,7 @@
 				11B64F5A247144BD00D5B2C1 /* Collection+Extension.swift */,
 				1109175A24816601003BCE79 /* UIApplication+Extension.swift */,
 				1109175C248166C5003BCE79 /* UINavigationController+Extension.swift */,
+				11BA119525262FCD0001850A /* Dictionary+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				11227FA6245DD46C00B824B1 /* UIButton+Extension.swift in Sources */,
 				11227FA4245DD46C00B824B1 /* Date+Extension.swift in Sources */,
 				11227FB4245DD46C00B824B1 /* UISegmentedControl+Extension.swift in Sources */,
+				11BA119625262FCD0001850A /* Dictionary+Extension.swift in Sources */,
 				11227FB2245DD46C00B824B1 /* DateFormatter+Extension.swift in Sources */,
 				11227F5B245DD43D00B824B1 /* SceneDelegate.swift in Sources */,
 				11227FA7245DD46C00B824B1 /* UIView+Extension.swift in Sources */,

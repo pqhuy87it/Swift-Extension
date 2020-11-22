@@ -123,11 +123,7 @@ extension String {
     // MARK: - NSRange
     
     func getNSRangeOf(_ str: String) -> NSRange? {
-        if let range = self.range(of: str) {
-            return NSRange(range, in: str)
-        }
-        
-        return nil
+        return (self as NSString).range(of: str)
     }
 
 	// MARK: - Hashtag
@@ -165,4 +161,10 @@ extension String {
 	var localized: String {
 		return NSLocalizedString(self, comment: "")
 	}
+    
+    // MARK: - Float value
+    
+    var floatValue: Float {
+        return (self as NSString).floatValue
+    }
 }

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1109175B24816601003BCE79 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1109175A24816601003BCE79 /* UIApplication+Extension.swift */; };
 		1109175D248166C5003BCE79 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1109175C248166C5003BCE79 /* UINavigationController+Extension.swift */; };
+		110E9E3B2566E18100505EF8 /* MPNowPlayingInfoCenter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E9E3A2566E18100505EF8 /* MPNowPlayingInfoCenter+Extension.swift */; };
 		110FE7B9245EB9D400B1CE8C /* StringProtocol+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110FE7B8245EB9D400B1CE8C /* StringProtocol+Extension.swift */; };
 		110FE7BB245EC9A500B1CE8C /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110FE7BA245EC9A500B1CE8C /* Data+Extension.swift */; };
 		110FE7BD245ECA0A00B1CE8C /* NSDictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110FE7BC245ECA0A00B1CE8C /* NSDictionary+Extension.swift */; };
@@ -69,6 +70,7 @@
 /* Begin PBXFileReference section */
 		1109175A24816601003BCE79 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
 		1109175C248166C5003BCE79 /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		110E9E3A2566E18100505EF8 /* MPNowPlayingInfoCenter+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MPNowPlayingInfoCenter+Extension.swift"; sourceTree = "<group>"; };
 		110FE7B8245EB9D400B1CE8C /* StringProtocol+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringProtocol+Extension.swift"; sourceTree = "<group>"; };
 		110FE7BA245EC9A500B1CE8C /* Data+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
 		110FE7BC245ECA0A00B1CE8C /* NSDictionary+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDictionary+Extension.swift"; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 		11227F88245DD46B00B824B1 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				110E9E3A2566E18100505EF8 /* MPNowPlayingInfoCenter+Extension.swift */,
 				110FE7BC245ECA0A00B1CE8C /* NSDictionary+Extension.swift */,
 				110FE7BA245EC9A500B1CE8C /* Data+Extension.swift */,
 				11227F89245DD46B00B824B1 /* UIDevice+Extension.swift */,
@@ -295,7 +298,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Huy Pham Quang";
 				TargetAttributes = {
 					11227F54245DD43D00B824B1 = {
@@ -382,6 +385,7 @@
 				11227F59245DD43D00B824B1 /* AppDelegate.swift in Sources */,
 				11227FAB245DD46C00B824B1 /* URL+Extension.swift in Sources */,
 				11227FA3245DD46C00B824B1 /* UIColor+Extension.swift in Sources */,
+				110E9E3B2566E18100505EF8 /* MPNowPlayingInfoCenter+Extension.swift in Sources */,
 				1109175B24816601003BCE79 /* UIApplication+Extension.swift in Sources */,
 				11227FA8245DD46C00B824B1 /* DispatchQueue+Extension.swift in Sources */,
 				11227FB6245DD46C00B824B1 /* UITableViewHeaderFooterView+Extension.swift in Sources */,
@@ -478,6 +482,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -538,6 +543,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

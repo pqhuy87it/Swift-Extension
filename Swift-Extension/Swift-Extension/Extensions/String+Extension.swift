@@ -167,4 +167,17 @@ extension String {
     var floatValue: Float {
         return (self as NSString).floatValue
     }
+
+	func range(_ start:Int, _ count:Int) -> Range<String.Index> {
+		let i = self.index(start >= 0 ?
+							self.startIndex :
+							self.endIndex, offsetBy: start)
+		let j = self.index(i, offsetBy: count)
+		return i..<j
+	}
+
+	
+	func nsRange(_ start:Int, _ count:Int) -> NSRange {
+		return NSRange(self.range(start,count), in:self)
+	}
 }
